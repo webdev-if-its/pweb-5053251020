@@ -90,7 +90,6 @@ a {
   padding: 16px 0;
 }
 
-/* PERBAIKAN: Tambahkan flex-wrap agar elemen bisa turun ke bawah */
 .nav-container {
   display: flex;
   align-items: center;
@@ -127,7 +126,6 @@ a {
   background-color: var(--color-navy);
 }
 
-/* PERBAIKAN: Tambahkan width 100% agar menu mengambil baris baru di mobile */
 .nav-menu {
   display: none;
   background-color: var(--color-white);
@@ -289,7 +287,6 @@ a {
   display: block;
 }
 
-/* Tinggi masing-masing kotak masonry (Mobile) */
 .card-top-left { height: 150px; }
 .card-mid-left { height: 280px; }
 .card-bot-left { height: 170px; }
